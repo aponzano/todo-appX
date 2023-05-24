@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    background-color: #fafafa;
+    background-image: url('./src/assets/img/background/mobile-light.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    font-family: 'Josefin Sans', sans-serif;
+    color: #484B6A;
+
+    @media screen and (min-width: 768px) {
+      background-image: url('./src/assets/img/background/desktop-light.jpg');
+    }
+  }
+
+  .dark body {
+    background-color: #161722;
+    background-image: url('./src/assets/img/background/mobile-dark.jpg');
+    color: #CACDE8;
+
+    @media screen and (min-width: 768px) {
+      background-image: url('./src/assets/img/background/desktop-dark.jpg');
+    }
+  }
+}

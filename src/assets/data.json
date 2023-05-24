@@ -1,0 +1,57 @@
+[
+  {
+    "id": 0,
+    "text": "View the optimal layout for the app depending on their device's screen size",
+    "isCompleted": true
+  },
+  {
+    "id": 1,
+    "text": "See hover states for all interactive elements on the page",
+    "isCompleted": true
+  },
+  {
+    "id": 2,
+    "text": "Add new todos to the list",
+    "isCompleted": true
+  },
+  {
+    "id": 3,
+    "text": "Mark todos as complete",
+    "isCompleted": true
+  },
+  {
+    "id": 4,
+    "text": "Delete todos from the list",
+    "isCompleted": true
+  },
+  {
+    "id": 5,
+    "text": "Filter by all/active/complete todos",
+    "isCompleted": true
+  },
+  {
+    "id": 6,
+    "text": "Clear all isCompleted todos",
+    "isCompleted": true
+  },
+  {
+    "id": 7,
+    "text": "Toggle light and dark mode",
+    "isCompleted": true
+  },
+  {
+    "id": 8,
+    "text": "Bonus: Drag and drop to reorder items on the list",
+    "isCompleted": false
+  },
+  {
+    "id": 9,
+    "text": "Bonus: Build this project as a full-stack application",
+    "isCompleted": false
+  },
+  {
+    "id": 10,
+    "text": "Bonus: Replace alert with custom modal",
+    "isCompleted": false
+  }
+]
